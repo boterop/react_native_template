@@ -77,6 +77,14 @@ When you want to forcefully reload, for example to reset the state of your app, 
 
 You've successfully run and modified your React Native App. :partying_face:
 
+## Release new version
+
+Write the changes in the `CHANGELOG.md` file and run the following command:
+
+```sh
+python3 change_version.py
+```
+
 ### Now what?
 
 - If you want to add this new React Native code to an existing application, check out the [Integration guide](https://reactnative.dev/docs/integration-with-existing-apps).
