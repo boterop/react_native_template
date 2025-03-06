@@ -62,9 +62,13 @@ create_whats_new_file(changes)
 os.system("npm i")
 os.system("git add .")
 
-message = f"""\nProject version changed to {new_version}
-Now you can commit the changes and push to the remote repository\n
+message = f"""
+Project version changed to {new_version}
+Now you can commit the changes and push to the remote repository
+
     git commit -m 'Prepare to release v{new_version}'
+
+Do not forget to translate the distribution/whatsnew-* files
 """
 
 print(message)
