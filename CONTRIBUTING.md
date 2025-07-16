@@ -10,7 +10,7 @@ Thank you for considering contributing to this project! Follow these guidelines 
 2. **Clone Your Fork**
 
    ```sh
-   git clone https://github.com/yourusername/react_native_template.git
+   git clone https://github.com/boterop/react_native_template
    cd react_native_template
    ```
 
