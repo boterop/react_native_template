@@ -1,7 +1,7 @@
 {
   "expo": {
-    "name": "ERIC",
-    "slug": "ERIC",
+    "name": "ReactNativeTemplate",
+    "slug": "React Native Template",
     "version": "0.1.0",
     "orientation": "portrait",
     "icon": "./assets/images/icon.png",

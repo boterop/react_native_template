@@ -4,7 +4,7 @@ import HomeScreen from "@/app/(tabs)";
 
 describe("HomeScreen", () => {
   it("renders correctly", () => {
-    const expectedText = "ERIC";
+    const expectedText = "React Native Template";
     const component = render(<HomeScreen />);
 
     expect(component.getByText(expectedText)).toBeTruthy();
