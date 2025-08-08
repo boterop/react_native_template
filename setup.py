@@ -79,6 +79,6 @@ def rename_content(path):
 
 
 rename_file(dirs, root)
-os.system("npm install")
+os.system("yarn install")
 
 print(f"Project renamed to {capitalized_name}")
